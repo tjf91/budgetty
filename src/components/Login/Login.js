@@ -29,8 +29,9 @@ class Login extends Component {
       alert('Login failed. Please try again.');
     }
   }
-
+  
   render() {
+    console.log(this.props.budget)
     return (
       <Background>
         <img src={logo} alt="" />
